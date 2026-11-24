@@ -289,7 +289,7 @@ public class DelivaricaBlocks {
             mapColor = Color.valueOf("e2eaf0");
         }};
 
-        whiteSnow = new Floor("white-snow") {{
+        whiteSnow = new Floor("white-snow-floor") {{
             variants = 3;
             mapColor = Color.valueOf("e2eaf0");
         }};
@@ -322,19 +322,6 @@ public class DelivaricaBlocks {
         letriteBoulder = new Prop("letrite-boulder") {{
             variants = 2;
         }};
-        whiteSnow = new Floor("white-snow-floor") {{
-            variants = 3;
-            mapColor = Color.valueOf("e2eaf0");
-        }};
-        whiteSnowWall = new StaticWall("white-snow-wall") {{
-            variants = 2;
-            mapColor = Color.valueOf("e2eaf0");
-        }};
-        whiteSnowWallLarge = new StaticWall("white-snow-wall-large") {{
-            variants = 1;
-            mapColor = Color.valueOf("e2eaf0");
-        }};
-
         // Окружение: аврит | Environment: avrite
         avrite = new Floor("avrite-floor") {{
             variants = 7;
