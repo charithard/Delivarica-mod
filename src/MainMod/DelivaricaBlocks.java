@@ -240,7 +240,7 @@ public class DelivaricaBlocks {
         letriteBoulder = new Prop("letrite-boulder"){{
             variants = 2;
         }};
-        whiteSnow = new Floor("white-snow"){{
+        whiteSnow = new Floor("white-snow-floor"){{
             variants = 3;
             mapColor = Color.valueOf("e2eaf0");
         }};
